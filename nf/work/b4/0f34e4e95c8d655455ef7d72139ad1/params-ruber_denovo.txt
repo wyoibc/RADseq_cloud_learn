@@ -1,1 +1,0 @@
-/cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/params-ruber_denovo.txt

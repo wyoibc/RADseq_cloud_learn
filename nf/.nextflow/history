@@ -1,6 +1,0 @@
-2024-09-16 15:48:56	-	friendly_sax	-	7cf398759d8af3130c53051e1f1637f9	cc284d80-06c3-4e11-8d8f-6d5ede0298f0	nextflow run ipyrad.nf
-2024-09-16 15:54:31	9.3s	extravagant_hypatia	ERR	09ac49263dd496a252ba78abc534b406	e7347ff6-1b97-4c41-a68d-90e220b17c1d	nextflow run ipyrad.nf
-2024-09-16 15:57:19	6.8s	hungry_yalow	ERR	09ac49263dd496a252ba78abc534b406	8ebe733e-19c8-4ef5-91e7-81cc287b6899	nextflow run ipyrad.nf
-2024-09-16 15:58:51	6.8s	curious_engelbart	ERR	09ac49263dd496a252ba78abc534b406	6b4f31b7-92c2-4aea-8535-42aee450cb7e	nextflow run ipyrad.nf
-2024-09-16 16:08:18	3m 35s	compassionate_curry	ERR	09ac49263dd496a252ba78abc534b406	5c9101d9-97a2-4bd4-833a-c0bd91f7c743	nextflow run ipyrad.nf
-2024-09-16 16:13:09	3m 10s	focused_solvay	OK	33beb4ee5da500756fcc518c778b3bd5	1600dc4c-4bd0-44c0-98f4-b2353f7f4c51	nextflow run ipyrad.nf
