@@ -1,63 +1,100 @@
-Sep-16 15:58:51.434 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ipyrad.nf
-Sep-16 15:58:51.541 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.1
-Sep-16 15:58:51.561 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/sharrin2/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.3,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.1
-Sep-16 15:58:51.571 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Sep-16 15:58:51.572 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Sep-16 15:58:51.575 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
-Sep-16 15:58:51.589 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Sep-16 15:58:51.659 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
-Sep-16 15:58:51.673 [main] INFO  nextflow.cli.CmdRun - Launching `ipyrad.nf` [curious_engelbart] DSL2 - revision: 09ac49263d
-Sep-16 15:58:51.674 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Sep-16 15:58:51.674 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
-Sep-16 15:58:51.681 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/sharrin2/.nextflow/secrets/store.json
-Sep-16 15:58:51.687 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@61e3cf4d] - activable => nextflow.secret.LocalSecretsProvider@61e3cf4d
-Sep-16 15:58:51.738 [main] DEBUG nextflow.Session - Session UUID: 6b4f31b7-92c2-4aea-8535-42aee450cb7e
-Sep-16 15:58:51.738 [main] DEBUG nextflow.Session - Run name: curious_engelbart
-Sep-16 15:58:51.740 [main] DEBUG nextflow.Session - Executor pool size: 2
-Sep-16 15:58:51.744 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
-Sep-16 15:58:51.747 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=10; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Sep-16 15:58:51.776 [main] DEBUG nextflow.cli.CmdRun - 
+Oct-08 12:34:35.027 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ipyrad.nf --ASSEMBLY_NAME my_new_assembly --CLUST_THRESHOLD 0.9
+Oct-08 12:34:35.116 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.1
+Oct-08 12:34:35.128 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/sharrin2/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.3,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.1
+Oct-08 12:34:35.138 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Oct-08 12:34:35.139 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Oct-08 12:34:35.141 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Oct-08 12:34:35.150 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Oct-08 12:34:35.161 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/nextflow.config
+Oct-08 12:34:35.162 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/nextflow.config
+Oct-08 12:34:35.176 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Oct-08 12:34:35.553 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Oct-08 12:34:35.564 [main] INFO  nextflow.cli.CmdRun - Launching `ipyrad.nf` [silly_sinoussi] DSL2 - revision: b282dae33f
+Oct-08 12:34:35.564 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Oct-08 12:34:35.564 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Oct-08 12:34:35.570 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/sharrin2/.nextflow/secrets/store.json
+Oct-08 12:34:35.572 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@52bf7bf6] - activable => nextflow.secret.LocalSecretsProvider@52bf7bf6
+Oct-08 12:34:35.606 [main] DEBUG nextflow.Session - Session UUID: 31d6a9c9-893d-464d-82c2-9d03f7568278
+Oct-08 12:34:35.606 [main] DEBUG nextflow.Session - Run name: silly_sinoussi
+Oct-08 12:34:35.606 [main] DEBUG nextflow.Session - Executor pool size: 24
+Oct-08 12:34:35.610 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Oct-08 12:34:35.613 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=72; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Oct-08 12:34:35.630 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 23.10.1 build 5891
   Created: 12-01-2024 22:01 UTC (15:01 MDT)
   System: Linux 5.14.0-362.24.1.el9_3.x86_64
   Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 11.0.20.1+1
   Encoding: UTF-8 (UTF-8)
-  Process: 441644@mbcpu-024.cluster [10.198.65.24]
-  CPUs: 2 - Mem: 1007.6 GB (264.5 GB) - Swap: 8 GB (8 GB)
-Sep-16 15:58:51.840 [main] DEBUG nextflow.Session - Work-dir: /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/work [nfs]
-Sep-16 15:58:51.840 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/bin
-Sep-16 15:58:51.846 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Sep-16 15:58:51.852 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Sep-16 15:58:51.871 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Sep-16 15:58:51.878 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 3; maxThreads: 1000
-Sep-16 15:58:51.962 [main] DEBUG nextflow.Session - Session start
-Sep-16 15:58:52.434 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Sep-16 15:58:52.497 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Sep-16 15:58:52.497 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Sep-16 15:58:52.501 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
-Sep-16 15:58:52.505 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=2; memory=1007.6 GB; capacity=2; pollInterval=100ms; dumpInterval=5m
-Sep-16 15:58:52.506 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Sep-16 15:58:52.586 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: ipyrad
-Sep-16 15:58:52.586 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
-Sep-16 15:58:52.586 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ipyrad
-Sep-16 15:58:52.587 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
-  Script_7b0f9069eaef1867: /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/ipyrad.nf
-Sep-16 15:58:52.587 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
-Sep-16 15:58:52.587 [main] DEBUG nextflow.Session - Session await
-Sep-16 15:58:52.741 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Sep-16 15:58:52.743 [Task submitter] INFO  nextflow.Session - [eb/704c36] Submitted process > ipyrad
-Sep-16 15:58:57.482 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: ipyrad; status: COMPLETED; exit: 1; error: -; workDir: /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/work/eb/704c36448c46c262445b2d8331c881]
-Sep-16 15:58:57.485 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=ipyrad; work-dir=/cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/work/eb/704c36448c46c262445b2d8331c881
+  Process: 1412269@mbcpu-024.cluster [10.198.65.24]
+  CPUs: 24 - Mem: 1007.6 GB (751.3 GB) - Swap: 8 GB (8 GB)
+Oct-08 12:34:35.659 [main] DEBUG nextflow.Session - Work-dir: /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/work [nfs]
+Oct-08 12:34:35.659 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/bin
+Oct-08 12:34:35.665 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Oct-08 12:34:35.671 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Oct-08 12:34:35.691 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Oct-08 12:34:35.705 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 25; maxThreads: 1000
+Oct-08 12:34:35.798 [main] DEBUG nextflow.Session - Session start
+Oct-08 12:34:35.960 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Oct-08 12:34:36.009 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-08 12:34:36.009 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-08 12:34:36.013 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Oct-08 12:34:36.016 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=24; memory=1007.6 GB; capacity=24; pollInterval=100ms; dumpInterval=5m
+Oct-08 12:34:36.018 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Oct-08 12:34:36.079 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: ipyrad
+Oct-08 12:34:36.079 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
+Oct-08 12:34:36.079 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ipyrad
+Oct-08 12:34:36.080 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_aa589d0da16be2ff: /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/ipyrad.nf
+Oct-08 12:34:36.080 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Oct-08 12:34:36.080 [main] DEBUG nextflow.Session - Session await
+Oct-08 12:34:36.320 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-08 12:34:36.321 [Task submitter] INFO  nextflow.Session - [7a/52f91e] Submitted process > ipyrad
+Oct-08 12:34:36.373 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: ipyrad; status: COMPLETED; exit: 1; error: -; workDir: /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/work/7a/52f91e073726fca25670b9db44f6e0]
+Oct-08 12:34:36.376 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=ipyrad; work-dir=/cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/work/7a/52f91e073726fca25670b9db44f6e0
   error [nextflow.exception.ProcessFailedException]: Process `ipyrad` terminated with an error exit status (1)
-Sep-16 15:58:57.496 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'ipyrad'
+Oct-08 12:34:36.383 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'ipyrad'
 
 Caused by:
   Process `ipyrad` terminated with an error exit status (1)
 
 Command executed:
 
-  ipyrad -p params-ruber_denovo.txt -s 1  # Call ipyrad with the params file
+  # Exporting Nextflow params as environment variables for envsubst
+  export ASSEMBLY_NAME=my_new_assembly
+  export PROJECT_DIR=/project/inbreh/radseq_cloud/ruber_test_nf
+  export RAW_FASTQ_PATH=/project/inbreh/radseq_cloud/ruber_data/all_ruber.fastq.gz
+  export BARCODES_PATH=/project/inbreh/radseq_cloud/ruber_data/barcodes_samples.txt
+  export SORTED_FASTQ_PATH=
+  export ASSEMBLY_METHOD=denovo
+  export REFERENCE_SEQUENCE=
+  export DATATYPE=ddrad
+  export RESTRICTION_OVERHANG=TGCAGG, GATC
+  export MAX_LOW_QUAL_BASES=5
+  export PHRED_QSCORE_OFFSET=33
+  export MINDEPTH_STATISTICAL=6
+  export MINDEPTH_MAJRULE=6
+  export MAXDEPTH=10000
+  export CLUST_THRESHOLD=0.9
+  export MAX_BARCODE_MISMATCH=0
+  export FILTER_ADAPTERS=2
+  export FILTER_MIN_TRIM_LEN=35
+  export MAX_ALLELES_CONSENS=2
+  export MAX_NS_CONSENS=0.05
+  export MAX_HS_CONSENS=0.05
+  export MIN_SAMPLES_LOCUS=4
+  export MAX_SNPS_LOCUS=0.2
+  export MAX_INDELS_LOCUS=8
+  export MAX_SHARED_HS_LOCUS=0.5
+  export TRIM_READS=0, 0, 0, 0
+  export TRIM_LOCI=0, 0, 0, 0
+  export OUTPUT_FORMATS=*
+  export POP_ASSIGN_FILE=
+  export REFERENCE_AS_FILTER=
+  
+  # Substituting variables and running ipyrad
+  envsubst < params-template.txt > params-my_new_assembly.txt
+  ipyrad -p params-my_new_assembly.txt -s 1 -c 24
 
 Command exit status:
   1
@@ -66,20 +103,18 @@ Command output:
   (empty)
 
 Command error:
-  ipyrad.assemble.utils.IPyradError: The value entered for the path to the raw fastq file is unrecognized.
-  Please be sure this path is correct. Double check the file name and
-  the file extension. If it is a relative path be sure the path is
-  correct with respect to the directory you're running ipyrad from.
-  You entered: /cluster/medbow/project/inbreh/radseq_cloud/ruber_data/all_ruber.fastq.gz
+  .command.sh: line 28: export: `0,': not a valid identifier
+  .command.sh: line 28: export: `0,': not a valid identifier
+  .command.sh: line 28: export: `0': not a valid identifier
 
 Work dir:
-  /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/work/eb/704c36448c46c262445b2d8331c881
+  /cluster/medbow/project/inbreh/radseq_cloud/tutorial/nf/work/7a/52f91e073726fca25670b9db44f6e0
 
-Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
-Sep-16 15:58:57.500 [main] DEBUG nextflow.Session - Session await > all processes finished
-Sep-16 15:58:57.512 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `ipyrad` terminated with an error exit status (1)
-Sep-16 15:58:57.530 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Sep-16 15:58:57.548 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=4.7s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
-Sep-16 15:58:57.548 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
-Sep-16 15:58:57.755 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
-Sep-16 15:58:57.776 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
+Oct-08 12:34:36.387 [main] DEBUG nextflow.Session - Session await > all processes finished
+Oct-08 12:34:36.388 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `ipyrad` terminated with an error exit status (1)
+Oct-08 12:34:36.398 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Oct-08 12:34:36.399 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Oct-08 12:34:36.402 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=10ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Oct-08 12:34:36.600 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Oct-08 12:34:36.622 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

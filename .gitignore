@@ -1,3 +1,4 @@
 nf/.nextflow/
+nf/nextflow*
 nf/work/
-
+.nextflow*
