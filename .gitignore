@@ -2,3 +2,5 @@ nf/.nextflow/
 nf/nextflow*
 nf/work/
 .nextflow*
+.ipynb_checkpoints
+
