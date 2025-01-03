@@ -11,14 +11,11 @@ OLD:
 
 <br>
 
-Updated the above into Jupyter notebooks - ipyrad and popstructure are both on GCP, phylo is not:
+Updated the above into Jupyter notebooks - ipyrad and popstructure are both on GCP, phylo estimation and plotting is not:
 
 - [RADseq data processing & assembly (using ipyrad)](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/ipyrad_tutorial.ipynb)
-- [Phylogenetic tree ingerence](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/phylo.ipynb)
 - [Population structure in R](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/popstructR.ipynb)
+- [Phylogenetic tree inference](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/phylo.ipynb)
+- [Plotting phylogenetic trees in R](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/plot_phylo.ipynb)
 
 <br>
-
-Note to me: need to add in the PAUP bootstrap plotting and the plotting of phylogenies generally into the R module
-
-
