@@ -36,13 +36,13 @@ You will execute each tutorial in GCP's VertexAI Workbench. Follow the documenta
 
 - Step 7: for "Machine type" select `n2` and `n2-standard-8 (8 vCPUs, 32 GB RAM)`
 
-- Additionally, in the Environment tab, you will need to select `Use a custom container` and enter `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nigms-vertex-r-wy` in the box for "Docker container image" - *this is critical because this container includes necessary software for these tutorials*
+- Additionally, in the Environment tab, you will need to select `Use a custom container` and enter `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nigms-vertex-r-wy` in the box for "Docker container image" - **this is critical because this container includes necessary software for these tutorials**
 
 
 Once you have created and started your instance, open a terminal window and clone this Github repository: `git clone https://github.com/wyoibc/RADseq_cloud_learn`. This should download all tutorial files into a directory called "RADseq_cloud_learn". Double click this directory, and then double click tutorial files within to run through tutorials.
 
 
-* *When you are finished, stop your virtual machine by checking your notebook and pushing the stop button so you aren't charged for a machine that is sitting idle*
+* **When you are finished, stop your virtual machine by checking your notebook and pushing the stop button so you aren't charged for a machine that is sitting idle**
 
 
 
