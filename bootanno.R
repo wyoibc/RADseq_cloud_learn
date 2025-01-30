@@ -14,7 +14,7 @@ besttree<- read.nexus(best.tree.file)
 boot <- prop.clades(besttree, boottrees) #calculates bootstrap support on each branch (not nodes because it's unrooted)
 boot[is.na(boot)] <- 0 #replace NAs with 0
 numboots <- length(boottrees) # nreps of bootstrapping
-bootprop <- (boot/numboots)*100 #gives a proportion of bootstrap support (converts to percentage)
+bootprop <- round((boot/numboots)*100, digits = 2) #gives a proportion of bootstrap support (converts to percentage)
 
 besttree$node.label <- bootprop #put bootstrap values on nodes of the tree
 write.tree(besttree, file=gsub(".tre$", "_boot.tre", best.tree.file)) #write new tree file with same name as the best tree with "_boot.tre" added to end
