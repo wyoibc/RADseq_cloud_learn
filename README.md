@@ -54,9 +54,9 @@ Once you have created and started your instance, open a terminal window and clon
 ### Tutorials:
 
 
-- [RADseq data processing & assembly (using ipyrad)](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/ipyrad_tutorial.ipynb) covers how to assemble RADseq data using the ipyrad pipeline
-- [Population structure in R](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/popstructR.ipynb) covers some basic population genetics analyses of the assembled RADseq data
-- [Phylogenetic tree inference](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/phylo.ipynb) covers phylogenetic inference of the assembled RADseq data
-- [Plotting phylogenetic trees in R](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/plot_phylo.ipynb) covers plotting and manipulation of the phylogenetic trees estimated in the previous tutorial
+- RADseq data processing & assembly (using ipyrad): [ipyrad_tutorial.ipynb](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/ipyrad_tutorial.ipynb) covers how to assemble RADseq data using the ipyrad pipeline
+- Population structure in R: [popstructR.ipynb](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/popstructR.ipynb) covers some basic population genetics analyses of the assembled RADseq data
+- Phylogenetic tree inference: [phylo.ipynb](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/phylo.ipynb) covers phylogenetic inference of the assembled RADseq data
+- Plotting phylogenetic trees in R: [plot_phylo.ipynb](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/plot_phylo.ipynb) covers plotting and manipulation of the phylogenetic trees estimated in the previous tutorial
 
 <br>
