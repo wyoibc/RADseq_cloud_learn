@@ -1,0 +1,29 @@
+[
+    {
+        "question": "Which methods are prone to being misled by continuous population structure?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "sNMF",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Structure",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "conStruct",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "GWAS",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    }
+]
+

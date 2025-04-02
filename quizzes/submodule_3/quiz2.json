@@ -1,0 +1,29 @@
+[
+    {
+        "question": "Which methods are designed to detect discrete population structure (population clusters)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "sNMF",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Structure",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Mantel tests",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "GWAS",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    }
+]
+
