@@ -34,6 +34,7 @@ Wyoming INBRE Data Science Core
 
 In this tutorial, we show users how to assemble restriction-site associated DNA sequence (RADseq) data and perform some basic population genetic and phylogenetic analyses. All tutorials are presented as Jupyter notebooks.
 
+
 This tutorial was developed to be executed on Google Cloud Platform, but can easily be adapted to other cloud, high performance compute, or even desktop/laptop computing systems.
 
 
@@ -84,7 +85,11 @@ There are submodules, each in a separate Jupyter notebook:
 - Phylogenetic tree inference: [3_phylo.ipynb](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/3_phylo.ipynb) covers phylogenetic inference of the assembled RADseq data
 - Plotting phylogenetic trees in R: [4_plot_phylo.ipynb](https://github.com/wyoibc/RADseq_cloud_learn/blob/master/4_plot_phylo.ipynb) covers plotting and manipulation of the phylogenetic trees estimated in the previous tutorial
 
+<br>
 
+<img src="images/WY_architecture.png"/>
+
+<br>
 
 
 * **When you are finished, stop your virtual machine by checking your notebook and pushing the stop button so you aren't charged for a machine that is sitting idle**
@@ -105,10 +110,6 @@ In submodules 2 and 4, you will run all analyses in R, using packages as describ
 In submodule 3, you will run [IQtree](http://www.iqtree.org/) and the method SVDQuartets within the [PAUP](https://paup.phylosolutions.com/get-paup/) software package.
 
 <br>
-
-
-## **Architecture Design**
-
 
 
 
