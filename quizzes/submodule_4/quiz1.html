@@ -1,25 +1,25 @@
-<div class="quiz3-container">
+<div class="quiz1-4-container">
    <style>
-       .quiz3-container {
+       .quiz1-4-container {
            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
            max-width: 800px;
            margin: 0 auto;
            padding: 20px;
        }
-       .quiz3-header {
+       .quiz1-4-header {
            background-color: #4a6495;
            color: white;
            padding: 15px 20px;
            font-size: 1.2em;
            border-radius: 8px 8px 0 0;
        }
-       .quiz3-content {
-           background-color: white;
+       .quiz1-4-content {
+	   background-color: white;
            padding: 20px;
            border: 1px solid #dee2e6;
            border-radius: 0 0 8px 8px;
        }
-       .quiz3-option {
+       .quiz1-4-option {
            background-color: #f8f9fa;
            border: 1px solid #dee2e6;
            border-radius: 8px;
@@ -28,41 +28,44 @@
            cursor: pointer;
            transition: background-color 0.2s;
        }
-       .quiz3-option:hover {
+       .quiz1-4-option:hover {
            background-color: #e9ecef;
        }
-       .quiz3-feedback {
+       .quiz1-4-feedback {
            margin-top: 10px;
            padding: 10px;
            border-radius: 5px;
            display: none;
        }
-       .quiz3-correct {
+       .quiz1-4-correct {
            background-color: #d4edda;
            color: #155724;
        }
-       .quiz3-incorrect {
+       .quiz1-4-incorrect {
            background-color: #f8d7da;
            color: #721c24;
        }
+       a:hover {
+	   color: red;
+       }
    </style>
-   <div class="quiz3-header">
-       Look at the phylo.to.map documentation [here](http://blog.phytools.org/2023/09/updates-to-phytools-function-phylotomap.html). What argument would you edit to plot the tree directly on the map, instead of above or on the side?
+   <div class="quiz1-4-header">
+	   Look at the phylo.to.map documentation <a href="http://blog.phytools.org/2023/09/updates-to-phytools-function-phylotomap.html">here</a>. What argument would you edit to plot the tree directly on the map, instead of above or on the side?
    </div>
-   <div class="quiz3-content">
-       <div class="quiz3-option" onclick="checkAnswer3('a')">
+   <div class="quiz1-4-content">
+       <div class="quiz1-4-option" onclick="checkAnswer3('a')">
            direction="rightwards"
        </div>
-       <div class="quiz3-option" onclick="checkAnswer3('b')">
+       <div class="quiz1-4-option" onclick="checkAnswer3('b')">
            ftype="i"
        </div>
-       <div class="quiz3-option" onclick="checkAnswer3('c')">
+       <div class="quiz1-4-option" onclick="checkAnswer3('c')">
            delimit_map=TRUE
        </div>
-       <div class="quiz3-option" onclick="checkAnswer3('d')">
+       <div class="quiz1-4-option" onclick="checkAnswer3('d')">
            type="direct"
        </div>
-       <div id="feedback3" class="quiz3-feedback"></div>
+       <div id="feedback3" class="quiz1-4-feedback"></div>
    </div>
 </div>
 
@@ -72,10 +75,10 @@
        feedback.style.display = 'block';
        
        if (selected === 'd') {
-           feedback.className = 'quiz3-feedback quiz3-correct';
+           feedback.className = 'quiz1-4-feedback quiz1-4-correct';
            feedback.textContent = 'Correct!';
        } else {
-           feedback.className = 'quiz3-feedback quiz3-incorrect';
+           feedback.className = 'quiz1-4-feedback quiz1-4-incorrect';
            feedback.textContent = 'Incorrect.';
        }
    }

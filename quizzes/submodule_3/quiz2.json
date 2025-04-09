@@ -1,25 +1,25 @@
 [
     {
-        "question": "Which methods are designed to detect discrete population structure (population clusters)?",
+        "question": "More bootstraps can give a better approximation of the percentage of bootstraps that support a clade. What variable would you change to use 500 replicates for SVDQuartets",
         "type": "many_choice",
         "answers": [
             {
-                "answer": "sNMF",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "Structure",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "Mantel tests",
+                "answer": "nreps",
                 "correct": false,
                 "feedback": "Incorrect."
             },
             {
-                "answer": "GWAS",
+                "answer": "nthreads",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "-alrt",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "-B",
                 "correct": false,
                 "feedback": "Incorrect."
             }
