@@ -5,8 +5,8 @@
         "answers": [
             {
                 "answer": "nreps",
-                "correct": false,
-                "feedback": "Incorrect."
+                "correct": true,
+                "feedback": "Correct."
             },
             {
                 "answer": "nthreads",
